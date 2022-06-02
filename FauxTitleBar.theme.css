@@ -1,0 +1,40 @@
+/**
+ * @name Faux Title Bar
+ * @author Vozer
+ * @version 2022.06.02
+ * @description A fake Title Bar for the macOS flavor of Discord
+ * @source https://github.com/SlippingGitty-s-Discord-Things/Faux-TitleBar-for-MacOS/
+ * @website https://slippinggitty.github.io/
+*/
+
+
+
+/*
+______   ______     __  __     __  __        ______   __     ______   __         ______        ______     ______     ______    
+/\  ___\ /\  __ \   /\ \/\ \   /\_\_\_\      /\__  _\ /\ \   /\__  _\ /\ \       /\  ___\      /\  == \   /\  __ \   /\  == \   
+\ \  __\ \ \  __ \  \ \ \_\ \  \/_/\_\/_     \/_/\ \/ \ \ \  \/_/\ \/ \ \ \____  \ \  __\      \ \  __<   \ \  __ \  \ \  __<   
+ \ \_\    \ \_\ \_\  \ \_____\   /\_\/\_\       \ \_\  \ \_\    \ \_\  \ \_____\  \ \_____\     \ \_____\  \ \_\ \_\  \ \_\ \_\ 
+  \/_/     \/_/\/_/   \/_____/   \/_/\/_/        \/_/   \/_/     \/_/   \/_____/   \/_____/      \/_____/   \/_/\/_/   \/_/ /_/ 
+                                                                                                                                */
+
+
+/* The faux title bar itself */
+.typeMacOS-3V4xXE {
+  position: relative;
+  width: 100%;
+  height: 35px;
+}
+  .theme-dark .typeMacOS-3V4xXE {
+    background: rgb(55, 54, 55);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.596);
+  }
+  .theme-light .typeMacOS-3V4xXE {
+    background: rgb(231, 234, 237);
+    border-bottom: 1px solid rgba(186, 186, 186, 0.386);
+  }
+
+/* Adujustments to accommodate for the blank space used for the stoplight*/
+.platform-osx .wrapper-1_HaEi {
+  margin: 0;
+  padding: 0;
+}
