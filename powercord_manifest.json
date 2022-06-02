@@ -1,0 +1,8 @@
+{
+    "name": "Faux Title Bar",
+    "version": "2022.06.02",
+    "license": "WTFPL",
+    "theme": "FauxTitleBar.theme.css",
+    "author": "Vozer",
+    "description": "A fake Title Bar for the macOS flavor of Discord."
+}
